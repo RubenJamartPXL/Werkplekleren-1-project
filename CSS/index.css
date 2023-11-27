@@ -1,0 +1,54 @@
+nav {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav li {
+    color: white;
+    list-style: none;
+    margin-right: 10%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma;
+    margin-left: 5%;
+    background-color: midnightblue;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    float: left;
+    margin-right: 5%;
+    height: 40%;
+}
+
+
+#ruben, #bo, #lukas, #intro, #special {
+
+    border: white 1px solid;
+    margin: 10px;
+    padding: 1%;
+}
+
+#ruben, #bo, #lukas {
+    margin-bottom: 15%;
+}
+
+
+#links {
+    width: 35%;
+    float: left;
+}
+
+#rechts {
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
