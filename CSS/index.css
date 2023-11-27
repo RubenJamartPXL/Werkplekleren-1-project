@@ -20,6 +20,9 @@ body {
     color: white;
     height: 100%;
     width: 100%;
+    background-image: url("../MEDIA/image 7.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 section {
