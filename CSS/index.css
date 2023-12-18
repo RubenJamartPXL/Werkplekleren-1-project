@@ -1,68 +1,76 @@
-nav {
-    background-color: black;
-    margin: 0px;
-    padding: 0px;
-}
-
-
-nav li {
-    color: white;
-    list-style: none;
-    margin-right: 10%;
-}
-
 body {
+    background-color: #FFF8F0;
+    margin: 0;
+    font-family: Tahoma;
+    color: #392F5A;
+}
+
+#begin {
+    background-color: #FF8811;
+    padding-top: 100px;
     margin: 0px;
-    padding: 0px;
-    margin-left: 5%;
-    background-color: midnightblue;
-    color: white;
-    height: 100%;
     width: 100%;
-    background-image: url("../MEDIA/image 7.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    font-family: "Courier New";
+    white-space: nowrap;
+    display: flex;
+    height: 900px;
 }
 
-h2 {
+#begin h1 {
+    font-size: 500px;
     text-align: left;
-    padding-left: 5%;
 }
 
-section {
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#welcome {
+    margin-top: 0;
+}
+
+#welcome h1 {
+    font-size: 300px;
+    margin: 0;
+}
+#make,#websites, #puntjes {
+    font-size: 128px;
+    margin: 0;
+}
+
+#make {
+
+    float:left;
+}
+
+#websites {
+    padding-left: 30px;
+    color: #F4D06F;
     float: left;
-    margin-right: 5%;
-    height: 40%;
 }
 
-
-#ruben, #bo, #lukas, #intro, #special {
-
-    border: white 1px solid;
-    margin: 10px;
-    padding: 1%;
-    opacity: 80%;
+#welcome h2 {
+    font-size: 200px;
+    margin: 0;
 }
 
-#ruben, #bo, #lukas {
-    margin-bottom: 15%;
+hr {
+    color: #F4D06F;
+    border-width: 7px;
+    border-style: solid;
 }
 
-
-#links {
-    width: 35%;
-    float: left;
+#about {
+    float: none;
 }
 
-#rechts {
-    width: 40%;
-    float: left;
-    text-align: center;
+#first {
+    font-size: 200px;
+    margin: 0;
 }
 
-#ruben:hover, #bo:hover, #lukas:hover {
-    opacity: 100%;
-    
+#name {
+    font-size: 200px;
+    color: #F4D06F;
+    margin: 0;
 }
-
