@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 }
 
 #begin h1 {
-    font-size: 500px;
+    font-size: 250px;
     text-align: left;
 }
 
@@ -138,26 +138,24 @@ hr {
 #skills {
     display: flex;
     width: 100%;
-}
-
-#skills p{
-    display: flex;
-    background-color: #FF8811;
-    padding: 0.5%;
-    padding-left: 1%;
-    padding-right: 1%;
-    border-radius: 10px;
-    list-style: none;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 100px;
-    font-weight: bold;
-    margin-right: 0;
-    align-items: center;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
+#skills p{
+    background-color: #FF8811;
+    padding: 0.5%;
+    margin: 1%;
+    flex: 1 0 10%;
+    border-radius: 10px;
+    list-style: none;
+    margin-top: 50px;
+    width: 100px;
+    font-weight: bold;
+    margin-right: 0;
+    text-align: center;
+}
 
 #interests {
 
