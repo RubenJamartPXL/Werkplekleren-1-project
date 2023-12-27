@@ -3,12 +3,26 @@ body {
     margin: 0;
     font-family: Tahoma;
     color: #392F5A;
+    width: 100%;
+    max-width: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#child{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 17px;
+    box-sizing: content-box;
 }
 
 #begin {
     background-color: #FF8811;
     padding-top: 100px;
-    margin: 0px;
+    margin: 0;
     width: 100%;
     white-space: nowrap;
     display: flex;
@@ -21,8 +35,9 @@ body {
 }
 
 main {
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
 }
 
 #welcome {
@@ -39,7 +54,6 @@ main {
 }
 
 #make {
-
     float:left;
 }
 
@@ -58,10 +72,18 @@ hr {
     color: #F4D06F;
     border-width: 7px;
     border-style: solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #about {
+    margin-top: 50px;
     float: none;
+}
+
+#about img {
+    float: left;
+    padding-right: 100px;
 }
 
 #first {
@@ -73,4 +95,71 @@ hr {
     font-size: 200px;
     color: #F4D06F;
     margin: 0;
+    font-weight: bold;
 }
+
+#about h4 {
+    color: #FF8811;
+    font-size: 64px;
+    margin: 0;
+}
+
+#aboutbalk {
+    background-color: #9DD9D2;
+    margin-top: 100px;
+    padding: 2%;
+    height: 350px;
+}
+
+#whyme, #whoami {
+    width: 48%;
+    float: left;
+}
+
+#whyme p, #whoami p {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 14pt;
+}
+
+#whyme h6, #whoami h6 {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #F4D06F;
+    font-size: 36px;
+    margin: 0;
+}
+
+#about h5 {
+    font-size: 48px;
+    margin: 0px;
+}
+
+#skills {
+    display: flex;
+    width: 100%;
+}
+
+#skills p{
+    display: flex;
+    background-color: #FF8811;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 10px;
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100px;
+    font-weight: bold;
+    margin-right: 0;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+#interests {
+
+}
+
