@@ -1,7 +1,7 @@
 body {
     background-color: #FFF8F0;
     margin: 0;
-    font-family: Tahoma;
+    font-family: Tahoma, serif;
     color: #392F5A;
     width: 100%;
     max-width: 100%;
@@ -26,22 +26,49 @@ body::-webkit-scrollbar {
     width: 100%;
     white-space: nowrap;
     display: flex;
-    height: 900px;
+    height: 1024px;
 }
 
-#begin h1 {
+#scrolling {
+    display: flex;
     font-size: 250px;
-    text-align: left;
+    text-align: center;
+    margin-bottom: 0;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: bold;
+    padding-bottom: 3%;
 }
 
 main {
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     width: 80%;
 }
 
+#backtotop {
+    background-color: #392F5A;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    border-radius: 100%;
+    padding: 2%;
+    opacity: 90%;
+}
+
+#backtotop:hover {
+    opacity: 100%;
+}
+
 #welcome {
+    width: 80%;
     margin-top: 0;
+    background-color: #9DD9D2;
+    height: 1080px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #welcome h1 {
@@ -49,6 +76,7 @@ main {
     margin: 0;
 }
 #make,#websites, #puntjes {
+
     font-size: 128px;
     margin: 0;
 }
@@ -132,7 +160,7 @@ hr {
 
 #about h5 {
     font-size: 48px;
-    margin: 0px;
+    margin: 0;
 }
 
 #skills {
@@ -147,17 +175,44 @@ hr {
     background-color: #FF8811;
     padding: 0.5%;
     margin: 1%;
-    flex: 1 0 10%;
     border-radius: 10px;
     list-style: none;
     margin-top: 50px;
-    width: 100px;
+    width: 300px;
     font-weight: bold;
     margin-right: 0;
     text-align: center;
+    font-size: 30pt;
 }
 
 #interests {
 
 }
 
+footer {
+    background-color: #392F5A;
+    margin-bottom: 0;
+}
+
+footer p {
+    margin-bottom: 0;
+    color: #FFF8F0;
+}
+
+@media screen and (max-width: 2560px) {
+    body {
+        width: 100%;
+        margin: auto;
+        zoom: 125%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        width: 100%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+
+}
