@@ -89,6 +89,7 @@ main {
     padding-left: 30px;
     color: #F4D06F;
     float: left;
+    font-weight: bold;
 }
 
 #welcome h2 {
@@ -189,6 +190,33 @@ hr {
 
 }
 
+#interests h2 {
+    color: #392F5A;
+    font-size: 128pt;
+    margin: 0;
+}
+
+#interests h3 {
+    color: #F4D06F;
+    font-size: 96pt;
+    margin: 0;
+    float: left;
+}
+
+#interests hr {
+    width: 354px;
+    margin: 0;
+    top: 50px;
+}
+
+#intlinks p {
+    width: 254px;
+    float: left;
+    margin: 5%;
+    margin-top: 2%;
+    border-width: 5pt;
+}
+
 footer {
     background-color: #392F5A;
     margin-bottom: 0;
@@ -199,7 +227,7 @@ footer p {
     color: #FFF8F0;
 }
 
-@media screen and (max-width: 2560px) {
+@media screen and (min-width: 2560px) {
     body {
         width: 100%;
         margin: auto;
@@ -211,6 +239,27 @@ footer p {
     body {
         width: 100%;
         margin: auto;
+    }
+
+    #begin {
+        white-space: initial;
+        width: 100%;
+    }
+
+    #name {
+        font-size: 80pt;
+    }
+
+    #aboutbalk {
+        height: 600px;
+    }
+
+    #welcome h1 {
+        font-size: 100pt;
+    }
+
+    #welcome h3 {
+        font-size: 60pt;
     }
 }
 @media screen and (max-width: 800px) {
