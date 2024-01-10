@@ -1,7 +1,5 @@
-Verwijder achtergronden foto's
+Verwijder achtergronden foto's EN POSITIONERING
 Vul lorems
-Vervolledig school experience
-Vervolledig thanks
-Vervolledig footer
+fix footer
 Vervolledig scaling
-Interests betere scaling
+TEST CONTACT ME
