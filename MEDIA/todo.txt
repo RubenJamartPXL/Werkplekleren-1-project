@@ -1,5 +1,6 @@
-Verwijder achtergronden foto's EN POSITIONERING
+Verwijder achtergronden foto's
 Vul lorems
 fix footer
 Vervolledig scaling
 TEST CONTACT ME
+placeholder foto veranderen.

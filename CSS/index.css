@@ -139,6 +139,7 @@ hr {
     margin-top: 100px;
     padding: 2%;
     height: 350px;
+    border-radius: 5px;
 }
 
 #whyme, #whoami {
@@ -234,35 +235,6 @@ hr {
     padding-bottom: 5%;
 }
 
-footer {
-    background-color: #392F5A;
-    margin-bottom: 0;
-    margin-top: 2%;
-    height: 140px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    width: 100%;
-}
-
-footer section {
-    width: 100%;
-}
-
-footer p {
-    margin-bottom: 0;
-    color: #FFF8F0;
-}
-
-footer a {
-    color: white;
-}
-
-footer a:visited {
-    color: white;
-}
 
 #projects {
     width: 80%;
@@ -298,6 +270,53 @@ footer a:visited {
 
 .proj p {
     font-size: 20px;
+}
+
+#refltext {
+    background-color: #9DD9D2;
+    padding: 2%;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+#reflection h3 {
+    font-size: 128pt;
+    color: #FF8811;
+    margin-bottom: 0;
+    margin-top: 4%;
+}
+
+#reflection h4 {
+    font-size: 64pt;
+    color: #FF8811;
+    margin: 0;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#reflection h5 {
+    font-size: 40pt;
+    color: #F4D06F;
+    margin: 0;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+#reflection p {
+    font-weight: bold;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#reflection button {
+    background-color: #F4D06F;
+    width: 150px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    color: #392F5A;
+    font-weight: bold;
+    font-size: 15pt;
+    float: right;
 }
 
 
@@ -352,14 +371,6 @@ footer a:visited {
     margin: 0;
 }
 
-footer img {
-    height: 30px;
-    width: auto;
-    float: left;
-    margin: 0;
-    margin-right: 30px;
-
-}
 
 #thankend section {
     padding-bottom: 0.5%;
@@ -412,6 +423,44 @@ form {
     color: #392F5A;
     font-size: 18pt;
     margin-top: 1%;
+}
+
+footer {
+    background-color: #392F5A;
+    margin-bottom: 0;
+    margin-top: 2%;
+    height: 140px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+footer section {
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+    color: #FFF8F0;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer img {
+    height: 30px;
+    width: auto;
+    float: left;
+    margin: 0;
+    margin-right: 30px;
 }
 
 input[type=submit]:hover {
