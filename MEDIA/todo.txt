@@ -1,6 +1,4 @@
-Verwijder achtergronden foto's
-Vul lorems
-fix footer
 Vervolledig scaling
 TEST CONTACT ME
 placeholder foto veranderen.
+fix projects height

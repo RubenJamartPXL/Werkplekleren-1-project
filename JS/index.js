@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function nederlands() {
         inleiding.textContent = "Inleiding";
         textinleiding.textContent = "Voor het schooljaar 2023-2024 volg ik het keuzetraject Digitale Vormgeving op de hogeschool PXL.\n" +
-            "Hier volg ik verschillende vakken waaronder het vak Werkplekleren 1. In dit vak worden we voorbereid voor te gaan werken binnen ons vak.\n" +
+            "Hier volg ik verschillende vakken waaronder het vak Werkplekleren 1. In dit vak worden we voorbereid om te gaan werken binnen ons vak.\n" +
             "Dit vak houd vanalles in waar ik verder in dit document meer over ga vertellen.\n";
         midden.textContent = "Midden";
         textmidden.textContent = "Voor het vak Werkplekleren 1 heb ik enorm veel bijgeleerd. Dit hebben we in verschillende sessies gedaan waar andere onderwerpen zijn besproken en uitgelegd.";
@@ -91,9 +91,9 @@ document.addEventListener("DOMContentLoaded", function() {
             "POP staat voor Persoonlijke OntwikkelingsPlan, hier leer je over hoe en waarom je aan personal branding zou doen, wat jouw motivatie is om dit te doen, jouw kernwaarden en kernkwadranten.\n" +
             "Ook leer je hier over reflectie en waarom het belangrijk is.\n" +
             "Persoonlijk heb ik tijdens deze sessies geleerd dat ik een leuke sfeer heel belangrijk vind, ook hebben deze sessies mij enorm gemotiveerd om aan personal branding te doen en ben hier vaak mee bezig. Mijn motivatie om dit te doen is omdat ik een passie heb voor websites bouwen en ik wil mijzelf hier succesvol mee maken. Beloning en dankbaarheid zijn ook een grote motivatie voor mij.\n" +
-            "Mijn hard skills zijn verschillende tools zoals Photoshop, Illustrator, Premiere Pro, After Effects, maar ook programmeertalen zoals HTML, CSS, JavaScript, Java, C++, C#, PHP, SQL, ...\n" +
+            "Mijn hard skills zijn verschillende tools zoals Photoshop, Illustrator, Premiere Pro, After Effects, deze heb ik pas geleerd tijdens de lessen Graphics Skills en in mijn vrije tijd, maar ook programmeertalen zoals HTML, CSS, JavaScript, Java, C++, C#, PHP, SQL, ..., maar deze bezat ik al. Ik\n" +
             "Ook kan ik heel goed om met computers.\n" +
-            "Mijn soft skills zijn creatief, humor, communicatief, snel lerend, leergierig en vriendelijk.\n" +
+            "Mijn soft skills zijn creatief, humor, communicatief, snel lerend, leergierig en vriendelijk. Ik ben zeker creatiever geworden aangezien mijn teamgenoten voor dit project mij geïnspireerd hebben en ik heb een leuke kans gekregen om het uit te voeren.\n" +
             "Ik zou graag meer ervaring willen opbouwen in werkplekleren 2 en kijk hier al erg naar uit.\n";
         werkveld.textContent = "Werkveldverkenning";
         textwerkveld.textContent = "Daarna hebben we de werkveldverkenning sessies gehad waar we gastsprekers kregen van bedrijven. Ik heb zelfs bij een van de bedrijven gesolliciteerd als jobstudent om meer ervaring op te bouwen.\n" +
@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function() {
         textmidden.textContent = "I have learned a great deal during Workplace Learning 1. We covered various topics in different sessions where different subjects were discussed and explained.";
         pop.textContent = "POP";
         textpop.textContent = "It all began with the various POP sessions. POP stands for Personal Development Plan (in Dutch), where you learn about how and why you should engage in personal branding, your motivation for doing so, your core values, and core quadrants. You also learn about reflection and why it is essential. Personally, during these sessions, I learned that I find a pleasant atmosphere crucial. These sessions also motivated me greatly to invest in personal branding, something I am often engaged in now. My motivation for this is my passion for building websites, and I want to make myself successful in this area. Reward and gratitude are also significant motivators for me.\n" +
-            "My hard skills include various tools like Photoshop, Illustrator, Premiere Pro, After Effects, as well as programming languages like HTML, CSS, JavaScript, Java, C++, C#, PHP, SQL, and more. I am also very proficient with computers. My soft skills include creativity, humor, communication, quick learning, curiosity, and friendliness.\n" +
+            "My hard skills include various tools like Photoshop, Illustrator, Premiere Pro, After Effects, as well as programming languages like HTML, CSS, JavaScript, Java, C++, C#, PHP, SQL, and more. I am also very proficient with computers. My soft skills include creativity, humor, communication, quick learning, curiosity, and friendliness. I definitely became more creative as my teammates on this project inspired me and I had a fun opportunity to implement it.\n" +
             "I would like to build more experience in Workplace Learning 2 and am looking forward to it.\n";
         werkveld.textContent = "Field Exploration";
         textwerkveld.textContent = "Afterward, we had field exploration sessions where guest speakers from companies shared their insights. I even applied for a job as a student at one of the companies to gain more experience. We explored three companies: Codeurs, Yappa, and Monocode. I applied at Monocode.\n" +
